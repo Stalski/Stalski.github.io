@@ -2,8 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3bd261f-91aa-4447-b6eb-8f5718ddd839" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.firebaserc" afterPath="$PROJECT_DIR$/docs/.firebaserc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/firebase.json" afterPath="$PROJECT_DIR$/docs/firebase.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/.firebaserc" afterPath="$PROJECT_DIR$/.firebaserc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/firebase.json" afterPath="$PROJECT_DIR$/firebase.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Bold.woff" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Bold.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Bold.woff2" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Bold.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Light.woff" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Light.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Light.woff2" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Light.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Medium.woff" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Medium.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Medium.woff2" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Medium.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Regular.woff" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Regular.woff2" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Thin.woff" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Thin.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/fonts/roboto/Roboto-Thin.woff2" afterPath="$PROJECT_DIR$/fonts/roboto/Roboto-Thin.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/images/icons/icon-128x128.png" afterPath="$PROJECT_DIR$/images/icons/icon-128x128.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/images/icons/icon-144x144.png" afterPath="$PROJECT_DIR$/images/icons/icon-144x144.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/images/icons/icon-152x152.png" afterPath="$PROJECT_DIR$/images/icons/icon-152x152.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/images/icons/icon-192x192.png" afterPath="$PROJECT_DIR$/images/icons/icon-192x192.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/images/icons/icon-256x256.png" afterPath="$PROJECT_DIR$/images/icons/icon-256x256.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/scripts/app.js" afterPath="$PROJECT_DIR$/scripts/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/scripts/jquery-3.3.1.js" afterPath="$PROJECT_DIR$/scripts/jquery-3.3.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/scripts/materialize.js" afterPath="$PROJECT_DIR$/scripts/materialize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/service-worker.js" afterPath="$PROJECT_DIR$/service-worker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/styles/materialize.css" afterPath="$PROJECT_DIR$/styles/materialize.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/styles/style.css" afterPath="$PROJECT_DIR$/styles/style.css" />
     </list>
     <ignored path="Stalski.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,28 +48,7 @@
     <favorites_list name="Stalski.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="firebase.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/firebase.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".firebaserc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/.firebaserc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,24 +128,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stalski.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Stalski.github.io" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -157,8 +142,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/template-progressive-web-app-master" />
     </key>
   </component>
@@ -198,12 +183,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535630108066</updated>
-      <workItem from="1535630109662" duration="2352000" />
+      <workItem from="1535630109662" duration="2800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2352000" />
+    <option name="totallyTimeSpent" value="2800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
@@ -254,12 +239,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/images/icons/icon-152x152.png">
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-152x152.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/styles/materialize.css">
+    <entry file="file://$PROJECT_DIR$/styles/materialize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -267,7 +252,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -275,7 +260,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/scripts/jquery-3.3.1.js">
+    <entry file="file://$PROJECT_DIR$/scripts/jquery-3.3.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -283,7 +268,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/scripts/materialize.js">
+    <entry file="file://$PROJECT_DIR$/scripts/materialize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -291,7 +276,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -299,12 +284,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/images/icons/icon-128x128.png">
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-128x128.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/images/icons/icon-144x144.png">
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-144x144.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -320,7 +305,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -328,7 +313,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/manifest.json">
+    <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -336,7 +321,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/service-worker.js">
+    <entry file="file://$PROJECT_DIR$/service-worker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -344,7 +329,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
@@ -352,17 +337,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/images/icons/icon-256x256.png">
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-256x256.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/images/icons/icon-192x192.png">
+    <entry file="file://$PROJECT_DIR$/images/icons/icon-192x192.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/firebase.json">
+    <entry file="file://$PROJECT_DIR$/.firebaserc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -370,7 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.firebaserc">
+    <entry file="file://$PROJECT_DIR$/firebase.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
