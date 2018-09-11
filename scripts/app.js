@@ -8,7 +8,7 @@
   }
 
   $('#button').click(() => {
-    console.log('click')
+    alert('click')
     let message = $('#message').val();
     console.log(message);
     $('#display').html(message);
@@ -17,7 +17,11 @@
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('./service-worker.js')
-             .then(function() { console.log('Service Worker Registered'); });
+       .register('./service-worker.js')
+       .then(function() {
+         console.log('Service Worker Registered');
+       })
+       .catch(err => console.error('Error', err));
   }
+
 })();
