@@ -1,42 +1,49 @@
 var dataCacheName = 'template-pwa';
 var cacheName = 'template-pwa';
 var filesToCache = [
-  '/',
- "./fonts",
- "./fonts/roboto",
- "./fonts/roboto/Roboto-Bold.woff",
- "./fonts/roboto/Roboto-Bold.woff2",
- "./fonts/roboto/Roboto-Light.woff",
- "./fonts/roboto/Roboto-Light.woff2",
- "./fonts/roboto/Roboto-Medium.woff",
- "./fonts/roboto/Roboto-Medium.woff2",
- "./fonts/roboto/Roboto-Regular.woff",
- "./fonts/roboto/Roboto-Regular.woff2",
- "./fonts/roboto/Roboto-Thin.woff",
- "./fonts/roboto/Roboto-Thin.woff2",
- "./images",
- "./images/icons",
- "./images/icons/icon-128x128.png",
- "./images/icons/icon-144x144.png",
- "./images/icons/icon-152x152.png",
- "./images/icons/icon-192x192.png",
- "./images/icons/icon-256x256.png",
- "./index.html",
- "./manifest.json",
- "./scripts",
- "./scripts/app.js",
- "./scripts/jquery-3.3.1.js",
- "./service-worker.js",
- "./styles",
- "./styles/style.css"
+    '/',
+    './',
+     "./fonts",
+     "./fonts/roboto",
+     "./fonts/roboto/Roboto-Bold.woff",
+     "./fonts/roboto/Roboto-Bold.woff2",
+     "./fonts/roboto/Roboto-Light.woff",
+     "./fonts/roboto/Roboto-Light.woff2",
+     "./fonts/roboto/Roboto-Medium.woff",
+     "./fonts/roboto/Roboto-Medium.woff2",
+     "./fonts/roboto/Roboto-Regular.woff",
+     "./fonts/roboto/Roboto-Regular.woff2",
+     "./fonts/roboto/Roboto-Thin.woff",
+     "./fonts/roboto/Roboto-Thin.woff2",
+     "./images",
+     "./images/icons",
+     "./images/icons/icon-128x128.png",
+     "./images/icons/icon-144x144.png",
+     "./images/icons/icon-152x152.png",
+     "./images/icons/icon-192x192.png",
+     "./images/icons/icon-256x256.png",
+     "./index.html",
+     "./manifest.json",
+     "./scripts",
+     "./scripts/app.js",
+     "./scripts/jquery-3.3.1.js",
+     "./service-worker.js",
+     "./styles",
+     "./styles/style.css",
+    './offline.html'
 ];
 
 self.addEventListener('install', function(e) {
-  console.log('[ServiceWorker] Install');
+
+    // Once the service worker is installed, go ahead and fetch the resources to make this work offline.
+    console.log('[ServiceWorker] Install');
+
   e.waitUntil(
     caches.open(cacheName).then(function(cache) {
       console.log('[ServiceWorker] Caching app shell');
-      return cache.addAll(filesToCache);
+      return cache.addAll(filesToCache).then(function() {
+          self.skipWaiting();
+      });
     })
   );
 });
@@ -58,6 +65,7 @@ self.addEventListener('activate', function(e) {
 
 self.addEventListener('fetch', function(e) {
   console.log('[Service Worker] Fetch', e.request.url);
+    // … either respond with the cached object or go ahead and fetch the actual URL
   e.respondWith(
     caches.match(e.request).then(function(response) {
       return response || fetch(e.request);
